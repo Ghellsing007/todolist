@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4FC3F7;
+    color: #fff;
+    height: 100px;
+    line-height: 100px;
+}
+
+label {
+    display: inline-block;
+    width: calc(100% - 20px);
+    background-color: #fff;
+    line-height: 40px;
+}
+
+label:hover {
+    background-color: #E1F5FE;
+}
+
+input[type=checkbox] {
+    margin: 0 10px;
+}
+
+a {
+    color: #4FC3F7;
+}
+
+.todo-input {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.todo-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.todo-item {
+    margin: 5px 0;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.input-text {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px #4FC3F7;
+    padding: 0 10px;
+}
+
+input[type=button] {
+   
+    font-weight: bold;
+    border-radius: 5px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: #fff;
+    border: solid 1px #4FC3F7;
+    color: #4FC3F7;
+}
+
+input[type=button]:hover {
+    background-color: #4FC3F7;
+    border: solid 1px #fff;
+    color: #fff;
+}
+
+input[type=button]:active {
+    background-color: #0995D1;
+    color: #fff;
+}
+
+.del-button {
+    float: right;
+    padding-right: 10px;
+}
+
+ /* Estilos CSS para el contenedor del círculo */
+ .circle-container {
+    width: 200px; /* Ancho del contenedor */
+    height: 200px; /* Altura del contenedor */
+    border-radius: 50%; /* Hace que el contenedor sea un círculo */
+    overflow: hidden; /* Oculta cualquier contenido que se salga del círculo */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+  }
+  .ccircle-container {
+    width: 50px; /* Ancho del contenedor */
+    height: 50px; /* Altura del contenedor */
+    border-radius: 50%; /* Hace que el contenedor sea un círculo */
+    overflow: hidden; /* Oculta cualquier contenido que se salga del círculo */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+  }
+
+
+  /* Estilos CSS para la imagen dentro del círculo */
+  .circle-container img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Ajusta automáticamente la altura */
+    display: block; /* Hace que la imagen sea un elemento de bloque */
+  }
+
+   
+  /* Estilos para el contenedor del recuadro */
+  .box-container {
+    width: 200px; /* Ancho del recuadro */
+    padding: 20px; /* Espaciado interno del recuadro */
+    background-color: #ffffff; /* Color de fondo del recuadro */
+    border: 1px solid #cccccc; /* Borde del recuadro */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+
+  /* Estilos para el texto dentro del recuadro */
+  .box-container p {
+    margin: 0; /* Elimina el margen por defecto del párrafo */
+    font-size: 14px; /* Tamaño de la fuente del texto */
+    color: #333333; /* Color del texto */
+  }
